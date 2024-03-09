@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* body{
+    background-color: rgb(187, 130, 130);
+} */
+.bcolor{
+    background-color:rgb(216, 209, 209);
+    height: 100vh;
+}
+
+
+nav{    
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.heading-primary{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: Bold;
+    color:purple;
+    
+}
+
+.menu-list{
+    display: flex;
+    
+}
+.menu-list li{
+    list-style: none;
+    margin-right: 25px;
+    font-family: sans-serif;
+    font-size: 20px;   
+    /* color: blue; */
+}
+.menu-list li a:link,:visited {
+text-decoration: none;
+color: purple  ;
+transition: all 0.5s;
+}
+.menu-list li a:hover, :active{
+    background-color:purple;
+    border-radius: 10px;
+    padding: 9px 10px;
+    color:aliceblue;
+    
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 600px; */    
+}
+.picturefirst{
+   border-radius: 50%;
+   height: 560px;
+   width: 470px;
+   margin-top: 60px;
+   object-fit: cover;
+   
+}
+.phototext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1.5;
+    /* outline: 2px solid; */
+
+}
+.description{
+    margin-left: 70px;
+    /* font-size: 50px; */
+    font-size: 40px;
+    
+}
+
+.firstbutton{
+    width: 130px;
+    height: 43px;
+    border-radius: 0.5rem;
+    color: purple;
+    background-color: white;
+    /* background-color: black; */
+    font-size: 18px;
+    border-color: blueviolet;
+    cursor: pointer;
+  
+}
+.firstbutton:hover{
+    color: white;
+    background-color: purple;
+}
+.firstphoto{
+    flex: 1;
+}
